@@ -1,0 +1,67 @@
+ h1 {
+ 	text-align: center;
+ 	font-size: 250%;
+ 	color: gray;
+ 	letter-spacing: 15px;
+ 	text-transform: uppercase;
+ }
+
+ nav {
+ 	text-align: center;
+ 	font-size: 120%;
+ 	letter-spacing: 3px;
+ 	padding-bottom: 30px;
+ }
+
+
+body {
+    padding: 33px;
+    border: 5px solid gray;
+}
+
+h2{
+	text-align: Left;
+	font-size: 180%;
+}
+
+p{
+	color: gray;
+    font-size: 110%;
+    border-bottom: 2px solid silver;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    }
+
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #C0C0C0;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #C0C0C0;
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+
+img {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-image: url("../Portfolio/Rendered Images/us.jpg");
+	background-position: center;
+	margin: auto;
+	display: block;
+	margin-bottom: 40px;
+}
