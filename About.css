@@ -41,6 +41,7 @@ img {
     background-image: url("../Portfolio/Rendered Images/us.jpg");
     background-position: left;
     position: absolute;
-    float: left;
+    left:15px; 
+    overflow: auto;
 
 }
