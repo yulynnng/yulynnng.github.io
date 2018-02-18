@@ -23,18 +23,25 @@
 
 			<form action="mailto:yulynnng@gmail.com" method="post" enctype="text/plain">
 				E-mail:<br>
-				<input type="text" name="name" ><br>
-				Subject Line:<br>
-				<input type="text" name="mail" ><br>
-				Subject: 
-				<br>
+				
+		<div class="container">
+  			<form action="/action_page.php">
+    			<label for="E-mail">E-mail</label>
+    			<input type="text" id="E-mail" name="E-mail" placeholder="Your E-mail..">
 
-				<label for="subject">Subject</label>
-    		<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+   				<label for="Subject Title">Subject Title</label>
+   				<input type="text" id="Subject Title" name="Subject Title" placeholder="Your subject title...">
 
-				<input type="text" name="comment"><br><br>
-				<input type="submit" value="Send">
-				<input type="reset" value="Reset">
+				<label for="Telephone Number">Telephone Number</label>
+    			<input type="text" id="Telephone Number" name="Telephone Number" placeholder="Eg. +44 (0)78351 16379 or +60-173038408">
+
+    			<label for="subject">Subject</label>
+    			<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    		<input type="submit" value="Submit">
+ 			 </form>
+		</div>
+			
 			</form>
 		</section>
 	</main>
