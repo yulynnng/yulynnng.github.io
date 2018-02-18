@@ -32,6 +32,8 @@ a {
 }
 
 td{
+    
+    text-align: justify-all;
     padding: 15px;
 }
 
