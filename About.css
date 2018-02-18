@@ -28,7 +28,6 @@ p{
     color: black;
     font-size: 110%;
     border-bottom: 0.5x;
-    text-align: justify;
     padding: 15px;
 }
 
@@ -38,11 +37,13 @@ a {
     padding: 8px 16px;
 }
 
-img {
+.img {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-image: url("../Portfolio/Rendered Images/us.jpg");
     background-position: left;
     margin: auto;
     display: block;
     margin-bottom: 40px;
+    position: absolute;
+
 }
