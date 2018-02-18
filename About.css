@@ -24,16 +24,7 @@ h2{
     font-size: 180%;    
 }
 
-td{
-    padding: 15px;
-}
 
-p{
-    color: black;
-    font-size: 110%;
-    border-bottom: 0.5x;
-    padding: 15px;
-}
 
 a {
     text-decoration: none;
@@ -41,11 +32,18 @@ a {
     padding: 8px 16px;
 }
 
+td{
+    padding: 15px;
+}
+
+p{
+    color: black;
+    font-size: 110%;
+}
+
 img {
-    background-image: url("../Portfolio/Rendered Images/us.png");
     background-position: left;
     position: absolute;
     left:15px; 
     overflow: auto;
-
 }
