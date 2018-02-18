@@ -13,6 +13,12 @@
     padding-bottom: 30px;
  }
 
+
+body {
+    padding: 33px;
+    border: 5px solid gray;
+}
+
 h2{
     text-align: Left;
     font-size: 180%;    
