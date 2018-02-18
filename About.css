@@ -24,6 +24,10 @@ h2{
     font-size: 180%;    
 }
 
+td{
+    padding: 15px;
+}
+
 p{
     color: black;
     font-size: 110%;
