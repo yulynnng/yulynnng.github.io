@@ -21,14 +21,14 @@ body {
 
 h2{
     text-align: Left;
-    font-size: 180%;
+    font-size: 180%;    
 }
 
 p{
     color: black;
     font-size: 110%;
     border-bottom: 0.5x;
-    text-align: right;
+    text-align: justify;
 }
 
 a {
