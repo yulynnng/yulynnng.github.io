@@ -4,7 +4,7 @@
     color: gray;
     letter-spacing: 15px;
     text-transform: uppercase;
-    padding-left: 150px;
+    padding-left: 100px;
  }
 
   nav {
@@ -20,7 +20,6 @@ a nav {
 }
 
 body {
-    
     padding: 33px;
     border: 5px solid gray;
     margin:15px;
