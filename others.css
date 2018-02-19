@@ -37,10 +37,3 @@ a {
     display: inline-block;
     padding: 8px 16px;
 }
-
-img {
-    background-position: left;
-    position: absolute;
-    left:10px; 
-    overflow: auto;
-}
