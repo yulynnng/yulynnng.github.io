@@ -41,7 +41,8 @@ p{
     text-align:justify;
     padding-left:30px;
     padding-right:30px;
-    margin:30px;
+    margin-left:10px;
+    margin-right:10px;
 }
 
 img {
