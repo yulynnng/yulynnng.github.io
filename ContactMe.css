@@ -7,10 +7,10 @@
  }
 
  nav {
- 	text-align: center;
- 	font-size: 120%;
- 	letter-spacing: 3px;
- 	padding-bottom: 30px;
+    text-align: right;
+    font-size: 120%;
+    letter-spacing: 3px;
+    padding-bottom: 30px;
     text-decoration: none;
  }
 
