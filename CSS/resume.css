@@ -1,0 +1,106 @@
+ h1 {
+    text-align: left;
+    font-size: 125%;
+    color: gray;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    padding-left: 100px;
+ }
+
+  nav {
+    text-align: right;
+    font-size: 120%;
+    letter-spacing: 3px;
+    padding-bottom: 30px;
+    text-decoration: none;
+ }
+
+a nav {
+	text-decoration: none;
+}
+
+body {
+    
+    padding: 33px;
+    border: 5px solid gray;
+    margin:15px;
+}
+
+img {
+    background-position: left;
+    position: absolute;
+    left:10px; 
+    overflow: auto;
+}
+
+h2{
+	font-family: verdana;
+	text-align: left;
+	font-size: 190%; 
+	margin: .25% .25% 0 0;
+}
+
+h3{
+	text-align: left; 
+	font-size: 110%;
+	font-weight: normal;
+	margin: .25% .25% 0 0;
+}
+
+h4{
+	color: #D22C56;
+	font-size: 110%;
+	font-weight: normal;
+	border-bottom: 2px;
+	padding-top: 30px;
+	margin: .25% .25% 0 0;
+}
+
+h5{
+	color: #D22C56;
+	font-size: 110%;
+	border-bottom: 2px solid silver;
+	padding-bottom: 25px;
+	margin: .25% .25% 0 0;
+	font-weight: normal;
+}
+
+p{
+    font-size: 110%;
+    padding-bottom: 25px;
+    border-bottom: 2px solid silver;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    }
+
+td{
+	padding: 15px;
+}
+
+tr{
+	text-align: left;
+	font-size: 130%;
+	vertical-align: text-top;
+
+}
+
+ul{
+	font-size: 85%;
+}
+
+tr, td{
+	width: 75%;
+	padding-top: 30px;
+	border-bottom: 1px solid silver;
+}
+
+br{
+	font-size: 80%;
+}
+
+
+
