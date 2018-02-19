@@ -38,7 +38,8 @@ a {
 p{
     color: black;
     font-size: 110%;
-    text-align:justify-all;
+    text-align:justify;
+    padding:30px;
 }
 
 img {
