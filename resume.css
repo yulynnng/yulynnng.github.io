@@ -4,7 +4,7 @@
     color: gray;
     letter-spacing: 15px;
     text-transform: uppercase;
-    padding-left: 15px;
+    padding-left: 35px;
  }
 
   nav {
@@ -24,6 +24,13 @@ body {
     padding: 33px;
     border: 5px solid gray;
     margin:15px;
+}
+
+img {
+    background-position: left;
+    position: absolute;
+    left:10px; 
+    overflow: auto;
 }
 
 h2{
@@ -95,10 +102,5 @@ br{
 	font-size: 80%;
 }
 
-img {
-    background-position: left;
-    position: absolute;
-    left:10px; 
-    overflow: auto;
-}
+
 
