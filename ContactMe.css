@@ -69,3 +69,10 @@ input[type=submit]:hover {
     padding: 20px;
 }
 </style>
+
+img {
+    background-position: left;
+    position: absolute;
+    left:10px; 
+    overflow: auto;
+}
