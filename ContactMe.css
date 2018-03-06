@@ -1,30 +1,5 @@
- h1 {
-    text-align: left;
-    font-size: 125%;
-    color: gray;
-    letter-spacing: 15px;
-    text-transform: uppercase;
- }
-
-  nav {
-    text-align: right;
-    font-size: 120%;
-    letter-spacing: 3px;
-    padding-bottom: 30px;
-    text-decoration: none;
- }
-
-a nav {
-    text-decoration: none;
-}
-
-body {
-    padding: 33px;
-    margin:15px;
-}
-
 h2{
-	text-align: Left;
+	text-align:left;
 	font-size: 180%;
 }
 
