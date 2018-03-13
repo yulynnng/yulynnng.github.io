@@ -1,0 +1,170 @@
+html, body {
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+} 
+
+
+.intro {
+    height:100%;
+    width:100%;
+    margin: auto;
+    background: url("../own/10.png") 50% 50%;
+    display: table;
+    top: 0;
+    background-size: cover;
+}
+
+.intro .inner {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+
+.content {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content h1 {
+    border-radius: 9px;
+    color: #FFFFFF;
+    font-family: times new romans; 
+    background-color:  rgba(0, 25, 0, .55) ;
+    text-shadow: -8px -6px 100px #000000FF;
+    font-size: 380%;
+    font-weight: bold;
+    letter-spacing: 10px;
+
+}
+
+.zoomInUp {
+    -webkit-animation-duration: 5s;
+    -webkit-animation-delay: .5s;
+    -webkit-animation-iteration-count: 1;
+}
+
+.btn {
+    border-radius: 9px;
+    color: #000000FF;
+    font-family:times new romans;
+    background-color:  rgba(237, 237, 237, .6588235294117647) ;
+    text-transform: uppercase;
+    letter-spacing: 5px; 
+    text-shadow: -2px -2px 5px #FFFFFFFF;
+}
+
+.container {
+    padding: 5%;
+}
+.right {
+    margin: 3%; 
+    font-size: 100%;
+    font-family: times new romans;
+}
+
+p{
+    font-size: 100%;
+    line-height: 210%;
+    text-align: justify;
+    margin: 3%;
+    font-family: times new romans;
+}
+
+h4 {
+    text-align: center;
+}
+
+h6 {
+   text-align: center;
+   letter-spacing: 3px;
+   padding-top: 10%; 
+   font-family: times new romans; 
+}
+
+.credit {
+    font-size: 15px;
+    padding-bottom: 2%;
+    text-align: center; 
+    font-family: times new romans;
+    letter-spacing: 1px;
+}
+
+.connect{
+    text-align: center;   
+    padding: 2%;
+}
+
+.connect a{
+    color: #000000FF;
+    text-decoration: none;
+    font-size: 1.4em;
+    margin-left: 10px;
+    letter-spacing: 20px;
+    text-shadow: 3px 3px 3px silver; 
+    text-align: center;
+}
+
+.connect a:-webkit-any-link{
+    text-decoration:none !important;
+}
+
+.connect a:hover{
+    color:#424242FF;
+}
+
+.card {
+    padding-top: 4px;
+}
+
+@media screen and (max-width: 900px) {
+    .content {
+        padding-bottom: 30%;
+    }
+    .content h1 {
+        font-size: 450%;
+    }
+    .btn {
+        font-size: 130%;
+        padding: 9px 17px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .content {
+        padding-bottom: 40%;
+    }
+    .content h1{
+        font-size: 300%;
+    }
+    .btn {
+        font-size: 110%;
+        padding: 9px 17px;
+    }
+    p{
+        font-size: 120%;
+        line-height: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .content{
+        padding-bottom: 50%;
+    }
+    .content h1{
+        font-size: 250%;
+    }
+    .btn {
+        font-size: 100%;
+        padding: 6px 14px;
+    }
+    p{
+        font-size: 100%;
+        line-height: 100%;
+    }
+
+
+}
