@@ -10,8 +10,8 @@ html, body {
     height:100%;
     width:100%;
     margin: auto;
-    background: url("../own/10.png") 50% 50%;
-    display: table;
+    background: url("own/5.png") 50% 50%;
+    display: block;
     top: 0;
     background-size: cover;
 }
@@ -81,7 +81,7 @@ h4 {
 h6 {
    text-align: center;
    letter-spacing: 3px;
-   padding-top: 10%; 
+   padding-bottom: 10%; 
    font-family: times new romans; 
 }
 
