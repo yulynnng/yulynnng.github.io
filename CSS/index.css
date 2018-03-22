@@ -10,7 +10,7 @@ html, body {
     height:100%;
     width:100%;
     margin: auto;
-    background: url("../own/10.png") 50% 50%;
+    background: url('../own/sketches.jpg') 50% 50%;
     display: table;
     top: 0;
     background-size: cover;
@@ -33,7 +33,7 @@ html, body {
     border-radius: 9px;
     color: #FFFFFF;
     font-family: times new romans; 
-    background-color:  rgba(0, 25, 0, .55) ;
+    background-color:  rgba(0, 25, 0, .611764705882353) ;
     text-shadow: -8px -6px 100px #000000FF;
     font-size: 350%;
     font-weight: bold;
