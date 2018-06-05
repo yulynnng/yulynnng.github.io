@@ -58,7 +58,7 @@ html, body {
 }
 
 .container {
-    padding: 4%;
+    padding: 5%;
 }
 .right {
     margin: 3%; 
@@ -66,12 +66,13 @@ html, body {
     font-family: times new romans;
 }
 
-p{
+div.p{
     font-size: 100%;
     line-height: 210%;
-    text-align: justify;
     margin: 3%;
     font-family: times new romans;
+    text-align:justify-all;
+    padding-top:30%;
 }
 
 .credit {
@@ -119,7 +120,7 @@ p{
 }
 
 .card {
-    padding-top: 3px;
+    padding-top: 4px;
 }
 
 @media screen and (max-width: 900px) {
