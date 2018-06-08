@@ -5,12 +5,16 @@ html, body {
     width:100%;
 } 
 
+body{
+    background-image: url('../images/sketches2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 
 .intro {
     height:100%;
     width:100%;
     margin: auto;
-    background: url('../own/sketches1.jpg') 50% 50%;
     display: table;
     top: 0;
     background-size: cover;
@@ -60,19 +64,13 @@ html, body {
 .container {
     padding: 4.5%;
 }
-.right {
-    margin: 3%; 
-    font-size: 100%;
-    font-family: times new romans;
-}
 
-div.p{
+p{
     font-size: 100%;
-    line-height: 210%;
+    line-height: 200%;
     margin: 3%;
     font-family: times new romans;
     text-align:justify-all;
-    padding-top:30%;
 }
 
 .credit {
