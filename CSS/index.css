@@ -6,7 +6,7 @@ html, body {
 } 
 
 body{
-    background-image: url('../images/sketches2.jpg');
+    background-image: url('../images/sketches3.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -42,27 +42,37 @@ body{
     font-size: 350%;
     font-weight: bold;
     letter-spacing: 8px;
-
 }
 
-.zoomInUp {
-    -webkit-animation-duration: 5s;
-    -webkit-animation-delay: .5s;
-    -webkit-animation-iteration-count: 1;
+.navbar a:hover{
+    color:#404040EC;
+    text-decoration: none;
 }
 
-.btn {
-    border-radius: 9px;
-    color: #000000FF;
-    font-family:times new romans;
-    background-color:  rgba(237, 237, 237, .6588235294117647) ;
-    text-transform: uppercase;
-    letter-spacing: 5px; 
-    text-shadow: -2px -2px 5px #FFFFFFFF;
+.image{
+    background-image: 20% 20%;
 }
 
-.container {
-    padding: 4.5%;
+ul {
+  white-space: nowrap;
+}
+
+ul, li {
+  list-style: none;
+  display: inline;
+}
+
+.about{
+    background-color: white;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.content h4 {
+    text-align: center;
+    color:#000000FF;
+    padding:5%;
 }
 
 p{
@@ -73,53 +83,47 @@ p{
     text-align:justify-all;
 }
 
-.credit {
-    font-size: 15px;
-    text-align: center; 
-    font-family: times new romans;
-    letter-spacing: 1px;
-    color: #000000FF;
-    padding-bottom: 4px;
+.zoomInUp {
+    -webkit-animation-duration: 5s;
+    -webkit-animation-delay: .5s;
+    -webkit-animation-iteration-count: 1;
 }
 
-.credit h6 {
-    font-family: times new romans; 
-    text-align: center;
-    letter-spacing: 1px;
-    color:#000000FF;
-}
-
-.content h4 {
-    text-align: center;
-    color:#000000FF;
-    padding:5%;
-}
-
-.connect{
-    text-align: center; 
-    padding-bottom:1%;  
-}
-
-.connect a{
-    color: #000000FF;
-    text-decoration: none;
-    font-size: 1.2em;
-    letter-spacing: 10px;
-    text-shadow: 3px 3px 3px #FFFFFFFF; 
-    text-align: center;
-}
-
-.connect a:-webkit-any-link{
-    text-decoration:none !important;
-}
-
-.connect a:hover{
-    color:#424242FF;
+.container {
+    padding: 4.5%;
 }
 
 .card {
     padding-top: 3.5px;
 }
+
+.contact{
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    font-family: times new romans;
+    text-align: center;
+}
+
+.fa {
+    padding:5px;
+    color:white;
+}
+
+.fa:hover {
+    color:#B6FAF3FF;
+    text-decoration: none;
+    border-radius:25%;
+}
+
+.footer {
+    background-color: hsla(0, 6%, 20%, .9137254901960784);
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    font-color: white;
+}
+
+--------------------------------------------end-----------------------------------
 
 @media screen and (max-width: 900px) {
     .content {
@@ -166,6 +170,5 @@ p{
         font-size: 100%;
         line-height: 100%;
     }
-
 
 }
