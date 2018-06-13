@@ -54,12 +54,12 @@ body{
 }
 
 ul {
-  white-space: nowrap;
+    white-space: nowrap;
 }
 
 ul, li {
-  list-style: none;
-  display: inline;
+    list-style: none;
+    display: inline;
 }
 
 .about{
