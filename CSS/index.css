@@ -9,6 +9,8 @@ body{
     background-image: url('../images/sketches3.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: 110%;
+    background-position: center;
 }
 
 .intro {
@@ -95,6 +97,16 @@ p{
 
 .card {
     padding-top: 3.5px;
+}
+
+.botton {
+    display: block;
+    text-align: center;
+    font-family: times new romans;
+}
+
+.fa .fa-chevron-circle-up:hover{
+    color:#FFF000FF;
 }
 
 .contact{
